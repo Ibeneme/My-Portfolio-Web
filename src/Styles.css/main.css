@@ -682,7 +682,7 @@ iframe{
         display: flex;
         flex-direction: column;
         gap: 1.9em;
-        width: 23em;
+        /* width: 23em; */
         justify-content: center;
         padding: 3em 2em;
         color:#10162F;
@@ -803,7 +803,7 @@ iframe{
         flex-direction: column;
         background-color: white;
         gap:2em;
-        width: 23em;
+        /* width: 23em; */
         padding: 2em 2em;
         border:#10162F 0.07em solid;
         color:#10162F;
