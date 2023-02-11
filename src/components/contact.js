@@ -15,14 +15,23 @@ export const Contact = () => {
               
               <div className="icons-containers" >
                     <a className="links" href="https://twitter.com/Ibeneme_Ikenna"> 
-                        <TfiTwitterAlt className="icons"/>
+                        <TfiTwitterAlt style={{width: "1.6em",
+        height: "1.6em",
+        textDecoration: "none",
+        color:"white"}}/>
                     </a>
                     <a className="links" href="https://github.com/Ibeneme"> 
-                        <FaGithub  className="icons"/>
+                        <FaGithub style={{width: "1.6em",
+        height: "1.6em",
+        textDecoration: "none",
+        color:"white"}}/>
                     </a>
                     
                     <a className="links" href="https://wa.link/70sz29"> 
-                            <RiWhatsappFill className="icons" />
+                            <RiWhatsappFill style={{width: "1.6em",
+        height: "1.6em",
+        textDecoration: "none",
+        color:"white"}} />
                     </a>
                     
                 </div>

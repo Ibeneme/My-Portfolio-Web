@@ -638,7 +638,7 @@ iframe{
         display: flex;
         flex-direction: column;
         background-color: white;
-        gap:2em;
+        gap:4em;
         width: 24em;
         padding: 2em 3em;
         border:#10162F 0.07em solid;
@@ -681,24 +681,24 @@ iframe{
     .body-container{
         display: flex;
         flex-direction: column;
-        background-color: white;
-        gap: 1.2em;
-        width: 20em;
+        gap: 1.9em;
+        width: 23em;
         justify-content: center;
         padding: 3em 2em;
-        border:#10162F 0.07em solid;
         color:#10162F;
+ 
+        margin-top: 0.3em;
     }
     iframe{
         border:#10162F 0.07em solid;
     }
     
     .body-container-main{
-        margin: 4em;
+        margin: 2em;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color:#10162F;
+        
     }
     .body-text{
         font-weight:bold;
@@ -712,7 +712,6 @@ iframe{
         margin-top: 1.5em;
         display: flex;
         flex-direction: column;
-        background-color: white;
         color:#10162F;
         align-items: center;
         justify-content: center;
@@ -724,12 +723,12 @@ iframe{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1.2em;
+        gap: 1.9em;
     }
     .bttn-container{
         transition: 3s;
         padding: 0.9em 2.2em;
-        width: 21em;
+        width: 26em;
         background-color: #10162F;
         color: white;
         border: none;
@@ -740,7 +739,7 @@ iframe{
     .bttn-container-two{
         transition: 3s;
         padding: 0.9em 2.2em;
-        width: 21em;
+        width: 26em;
         height: 3.8em;
         background-color: transparent;
         color: #10162F;
@@ -763,7 +762,7 @@ iframe{
     .icons-container{
         display: flex;
         flex-direction: row;
-        gap: 2em;
+        gap: 5.3em;
         text-decoration: none;
         margin-top: 0.1em;
         margin-left: -1em;
@@ -787,7 +786,7 @@ iframe{
         width: 1.6em;
         height: 1.6em;
         text-decoration: none;
-        color: white;
+        color:#10162F;
     }
     .link{
         text-decoration: none;
@@ -804,12 +803,13 @@ iframe{
         flex-direction: column;
         background-color: white;
         gap:2em;
-        width: 20em;
+        width: 23em;
         padding: 2em 2em;
         border:#10162F 0.07em solid;
         color:#10162F;
         justify-content: center;
         align-items: center;
+     
    
     }
     
@@ -826,21 +826,23 @@ iframe{
         gap: 1.2em;
         align-items: center;
         width: 18em;
+        margin-left: 1.4em;
     }
     iframe{
-        width:17em;
+        width:23em;
         height: 14em;
     }
     .last{
-        width: 12em;
+        width: 26em;
         padding-left: 1em;
     }
     .bttbr{
-        width: 22em;
+        width: 26em;
         padding-left: 0.5em;
     }
     h2, .h2{
         font-size: 1.2em;
+        margin-left: 0.9em;
     }
     p{
         font-size: 0.8em;

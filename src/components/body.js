@@ -9,7 +9,7 @@ export const Body = () => {
   return (
     <div style={{display:"flex", flexDirection:'column', marginTop:"1em", justifyContent:"center"}} >
         <Navbar />
-        <div style={{display:"flex", marginTop:"8em", justifyContent:"center"}}>
+        <section style={{display:"flex", marginTop:"8em", justifyContent:"center"}}>
     
             <div className="body-container">
             <h4 className="body-text" >I'm Ibeneme Ikenna Kenneth</h4>
@@ -26,9 +26,9 @@ export const Body = () => {
                
                    
                   
-                        {/* <button  className="bttn-container-two" >
+                     <button  className="bttn-container-two" >
                              View My Resume
-                         </button> */}
+                         </button> 
                  
                     
                 </div>
@@ -50,11 +50,11 @@ export const Body = () => {
                 
            </div>
 
-        </div>
+        </section>
         <div className="body-container-main" >
 
         </div>
-            <div style={{display:"flex", marginTop:"-1em", justifyContent:"center",}}>
+            <section style={{display:"flex", marginTop:"-1em", justifyContent:"center",}}>
             <div style={{alignItems:"center"}}>
             <h2 className="h2" style={{fontWeight:"bolder", marginBottom:"0.9em"}}> MY PORTFOLIO PROJECTS</h2>
             <div className="body-containers">
@@ -103,24 +103,24 @@ export const Body = () => {
             </div>
         </div>
         
-        </div>
+        </section>
 
 
 
         {/* //footer */}
 
-        <div style={{width:"100%", marginTop:"3em", backgroundColor:"#10162F", height:"16em",display:"flex", flexDirection:"column",justifyContent:"center", alignItems:"center"}} >
-              <p style={{color:"white"}}>Made with 🤍 By Ibeneme Ikenna Kenneth </p> 
+        <div style={{width:"100%", marginTop:"3em", color:"#10162F", height:"16em",display:"flex", flexDirection:"column",justifyContent:"center", alignItems:"center"}} >
+              <p style={{color:"#"}}>Made with love By Ibeneme Ikenna Kenneth </p> 
               <div className="icons-containers">
                     <a className="links" href="https://twitter.com/Ibeneme_Ikenna"> 
-                        <TfiTwitterAlt className="icons"/>
+                        <TfiTwitterAlt style={{color:"#"}} className="icons"/>
                     </a>
                     <a className="links" href="https://github.com/Ibeneme"> 
-                        <FaGithub  className="icons"/>
+                        <FaGithub style={{color:"#"}}  className="icons"/>
                     </a>
                     
                     <a className="links" href="https://wa.link/70sz29"> 
-                            <RiWhatsappFill className="icons" />
+                            <RiWhatsappFill style={{color:"#"}} className="icons" />
                     </a>
                     
                 </div>
